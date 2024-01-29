@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+   overflow: scroll;
+   color: white;
+background-color: #282A35!important;
+  }
+  .navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    height: 60px;
+background-color:rgb(201, 187, 187);
+color: rgb(24, 20, 20);
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+cursor: pointer;
+  }
+  .navbar-logo{
+height: 50px;
+width: 100px;
+}
+.logo{
+background-image:url(W3Schools_Logo.webp) ;
+background-size: cover;
+height: 30px;
+width: 80%;
+align-items: center;
+justify-content: center;
+}
+.tutorial{
+display: flex;
+font-size: 16px;
+border: none;
+width: 100px;
+height: 100%;
+align-items : center;
+
+
+}
+.tutorial:hover{
+background-color:rgb(108, 243, 108); 
+}
+.exercise{
+display: flex;
+font-size: 16px;
+border: none;
+width: 100px;
+height: 100%;
+align-items : center;
+
+}
+.exercise:hover{
+background-color:rgb(108, 243, 108); 
+}
+.certificates{
+display: flex;
+font-size: 16px;
+border: none;
+width: 100px;
+height: 100%;
+align-items : center;
+
+}
+.certificates:hover{
+background-color:rgb(108, 243, 108); 
+}
+.service{
+display: flex;
+border: none;
+width: 100px;
+height: 100%;
+align-items : center;
+
+font-size: 16px;
+}
+.service:hover{
+background-color:rgb(108, 243, 108); 
+}
+.input{
+display: flex;
+padding: 5px 10px 5px 15px;
+border: 2px solid rgba(212, 95, 95, 0.25) ;
+border-radius: 25px;
+width: 200px;
+align-items: center;
+
+}
+.input-search{
+
+border: 1px;
+border-radius: 50%;
+}
+
+.input:hover{
+background-color: rgb(108, 243, 108);
+}
+.get{
+display: flex;
+border: none;
+width: 100px;
+height: 100%;
+align-items : center;
+
+font-size: 16px; 
+}
+.get:hover{
+background-color:rgb(108, 243, 108); 
+}
+.job{
+display: flex;
+border: none;
+width: 100px;
+height: 100%;
+align-items : center;
+
+font-size: 16px;  
+}
+.job:hover{
+background-color:rgb(108, 243, 108); 
+}
+.signup{
+display: flex;
+background-color:rgb(175, 248, 175);
+border: none;
+width: 100px;
+height: 80%;
+align-items : center;  
+justify-content: center;
+border: 1px solid lightgreen;
+border-radius: 50%; ;
+}
+.signup:hover{
+background-color: green;
+}
+
+
+      
+     /* .panel{
+        position: fixed;
+        z-index: 4;
+        margin-top: 60px;
+      padding-top: 60px;
+        height: 50px;
+        width: 100%;
+        
+        background-color: rgb(4, 4, 77);
+        color: white;
+       
+      } */
+      .panel-option{
+        
+        position: fixed;
+        z-index: 4;
+        margin-top: 60px;
+        height: 50px;
+        width: 100%;
+       background-color: #979ec5;
+       color: #f1f1f1;
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        align-items: center;
+        cursor: pointer;
+      }
+     /* .panel-option ,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10{
+        color: red;
+        background-color: #000;
+      }*/
+      
+      /*.side{
+       position: relative;
+       
+       
+       height: 100%;
+        width: 200px;
+        display:grid ;
+        top: 0;
+        left: 0;
+        background-color:rgb(207, 202, 202);
+        overflow-y: scroll;
+        padding-top: 10px;
+      }*/
+     .sidebar-1{
+       cursor: pointer;
+        margin-top: 110px;
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        display:grid ;
+        grid-row-gap: 40px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(231, 228, 228);
+        overflow:scroll ;
+        padding-top: 20px;
+       
+     }
+     /*a:nth-child(2n+1){color: rgb(255, 186, 96);}*/
+     .right{
+     
+     }
+     .right-side{
+        position: relative;
+        top: 210px;
+       left:  240px;
+       
+       
+     }
+     .right-side:hover{
+        /*  zoom: 2;*/
+         
+     }
+
+     .btn{
+        position: relative;
+        top: 210px;
+       left:  240px;
+       width: 1000px;
+      color: white;
+      display: flex;
+      justify-content:space-between;
+    
+    
+     }
+   .para-main{
+    height: 300px;
+    width: 1000px;
+    line-height: 1.5em;
+    border: 1px;
+    /*background-color: #aaabaf;*/
+   }
+   
+    
+     .para{
+        position: relative;
+       margin: 290px 0px 0px 240px;
+       display: block;
+       color: #f8eded!important;
+   /* background-color: #fff!important;*/
+    font-family: 'Times New Roman', Times, serif;
+       font-size: 15px;
+       line-height: 1.5;
+      
+     }
+     .button{
+        position: relative;
+        top: 30px;
+       left:  240px;
+      color: white; 
+     }
+     .button-1{
+        position: relative;
+        top: 45px;
+       left:  240px;
+      color: white;  
+     }
+     .head-2{
+        position: relative;
+        height: 200px;
+       left:  240px;
+       
+     }
+     .head-3{
+        position: relative;
+       height: 200px;
+       left:  240px;
+      
+     }
+     .head-4{
+        position: relative;
+        width: 1000px;
+       left:  240px;
+       
+     }
+     .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        line-height: 70px;
+        color: #fff;
+     }
+     
+     
+     .grid-1{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 15px;
+         
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-1:hover{
+        background-color: #000;
+     }
+     .grid-2{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-2:hover{
+        background-color: #000;
+     }
+
+     .grid-3{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-3:hover{
+        background-color: #000;
+     }
+     .grid-4{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-4:hover{
+        background-color: #000;
+     }
+     .grid-5{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-5:hover{
+        background-color: #000;
+     }
+     .grid-6{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-6:hover{
+        background-color: #000;
+     }
+     .grid-7{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-7:hover{
+        background-color: #000;
+     }
+     .grid-8{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-8:hover{
+        background-color: #000;
+     }
+     .grid-9{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-9:hover{
+        background-color: #000;
+     }
+     .grid-10{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-10:hover{
+        background-color: #000;
+     }
+     .grid-11{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-11:hover{
+        background-color: #000;
+     }
+     .grid-12{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-12:hover{
+        background-color: #000;
+     }
+     .grid-13{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-13:hover{
+        background-color: #000;
+     }
+     .grid-14{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         text-align: center;
+         justify-content: center;
+
+     }
+     .grid-14:hover{
+        background-color: #000;
+     }
+     .grid-15{
+        height: 50px;
+        width: 200px;
+        background-color: #979ec5;
+         border-radius: 10px;
+         align-items: center;
+         text-align: center;
+         justify-content: center;
+         text-decoration: none;
+
+     }
+     .grid-15:hover{
+        background-color: #000;
+     }
+
+  /*   @media (min-width:200px){
+        body{
+            background-color: red;
+        }
+     }
+     @media (min-width:400px){
+        body{
+            background-color: rgb(105, 11, 11);
+        }
+     }*/
+       
+     
+    
